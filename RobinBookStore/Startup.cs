@@ -62,7 +62,7 @@ namespace RobinBookStore
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    // here is the default
+                    // here is the default welcome message
                     pattern: "{controller=Home}/{action=Index}/{id?}");
                 endpoints.MapRazorPages();
             });
