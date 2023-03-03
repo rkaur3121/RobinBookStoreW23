@@ -1,4 +1,4 @@
-﻿2023-03-02
+﻿****2023-03-02****
 1505
 Started assignment 2 in-class in the lab computer
 set up the ASP.NET MVC w/ core 1.3 (out of support)
@@ -17,3 +17,7 @@ Action Items:
 1516
 modified the default welcome message...tested..
 review the route pattern in startup.cs
+
+****2023-02-03*****
+1509
+clone respository RobinBookStore assignment with github
