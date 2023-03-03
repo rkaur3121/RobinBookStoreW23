@@ -21,3 +21,9 @@ review the route pattern in startup.cs
 ****2023-02-03*****
 1509
 clone respository RobinBookStore assignment with github
+
+1545
+created README.md file in Github 
+AND.....
+1550
+pull it into visual studio code 2019
