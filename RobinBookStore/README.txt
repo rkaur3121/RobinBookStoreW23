@@ -35,4 +35,7 @@ clone respository RobinBookStore assignment with github
 
 1420- firstly download theme from bootswatch.com
 1422- Replace text in  bootstrap.css(www.root/lib/bootstrap/dist/bootstrap.css)
-1438- done all changes in _Layout.cshtml
+1438- done all changes in _Layout.cshtml(change name bootstrap.min.css to bootstrap.css, change navbar-light to navbar-dark and bg-white to bg-primary, 
+remove text-dark in line 23 and add additional properties in footer)
+
+1502-Remove references to 'text-dark' in _LoginPartial.cshtml inside (views/shared)
