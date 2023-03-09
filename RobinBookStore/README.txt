@@ -27,3 +27,12 @@ created README.md file in Github
 AND.....
 1550
 pull it into visual studio code 2019
+
+****2023-02-09******
+start file again 
+1415
+clone respository RobinBookStore assignment with github
+
+1420- firstly download theme from bootswatch.com
+1422- Replace text in  bootstrap.css(www.root/lib/bootstrap/dist/bootstrap.css)
+1438- done all changes in _Layout.cshtml
