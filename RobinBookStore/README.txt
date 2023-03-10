@@ -41,4 +41,4 @@ remove text-dark in line 23 and add additional properties in footer)
 1502-Remove references to 'text-dark' in _LoginPartial.cshtml inside (views/shared)
 
 2005- edit _layout.cshtml file(add link into _layout.cshtml and add dropdown menu div class )
-
+1509- edit_layout.cshtml file
