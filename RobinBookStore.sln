@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32802.440
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobinBookStore", "RobinBookStore\RobinBookStore.csproj", "{6F26E2CF-A522-4B1E-98A0-FD9B425DA226}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RobinBookStore", "RobinBookStore\RobinBookStore.csproj", "{6F26E2CF-A522-4B1E-98A0-FD9B425DA226}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Robinbooks.DataAccess", "Robinbooks.DataAccess\Robinbooks.DataAccess.csproj", "{ED4A0647-4236-4709-AA73-C5554F2DC3D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Robinbooks.Models", "Robinbooks.Models\Robinbooks.Models.csproj", "{F0E94924-6DDF-415B-96FE-EBC999847103}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Robinbooks.Utility", "Robinbooks.Utility\Robinbooks.Utility.csproj", "{37AD0D59-5C96-4945-9C19-2CBBADD11D10}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{6F26E2CF-A522-4B1E-98A0-FD9B425DA226}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F26E2CF-A522-4B1E-98A0-FD9B425DA226}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F26E2CF-A522-4B1E-98A0-FD9B425DA226}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED4A0647-4236-4709-AA73-C5554F2DC3D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED4A0647-4236-4709-AA73-C5554F2DC3D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED4A0647-4236-4709-AA73-C5554F2DC3D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED4A0647-4236-4709-AA73-C5554F2DC3D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0E94924-6DDF-415B-96FE-EBC999847103}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0E94924-6DDF-415B-96FE-EBC999847103}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0E94924-6DDF-415B-96FE-EBC999847103}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0E94924-6DDF-415B-96FE-EBC999847103}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37AD0D59-5C96-4945-9C19-2CBBADD11D10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37AD0D59-5C96-4945-9C19-2CBBADD11D10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37AD0D59-5C96-4945-9C19-2CBBADD11D10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37AD0D59-5C96-4945-9C19-2CBBADD11D10}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
