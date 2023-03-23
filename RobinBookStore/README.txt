@@ -46,3 +46,4 @@ remove text-dark in line 23 and add additional properties in footer)
 
 ******start again***
 1747- move data folder to  Robinbooks.DataAccess
+1751- delete migration folder 
