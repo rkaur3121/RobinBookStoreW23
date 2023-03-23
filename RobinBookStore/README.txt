@@ -43,3 +43,6 @@ remove text-dark in line 23 and add additional properties in footer)
 2005- edit _layout.cshtml file(add link into _layout.cshtml and add dropdown menu div class )
 1509- edit_layout.cshtml file
 1524- add 3 new projects
+
+******start again***
+1747- move data folder to  Robinbooks.DataAccess
