@@ -47,3 +47,4 @@ remove text-dark in line 23 and add additional properties in footer)
 ******start again***
 1747- move data folder to  Robinbooks.DataAccess
 1751- delete migration folder 
+1756- install package in appicationDbContext.cs and delete class1.css from 3 class library
