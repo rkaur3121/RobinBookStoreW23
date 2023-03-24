@@ -50,4 +50,5 @@ remove text-dark in line 23 and add additional properties in footer)
 1756- install package in appicationDbContext.cs and delete class1.css from 3 class library
 1807-make some changes in ErrorViewModels.cs,startup.cs,Error.cshtml,HomeController.cs
 1823- Move Home Controller to customer/contoller and change the root in startup.cs file 
+1823- move View/Home folder to customer/views
 
