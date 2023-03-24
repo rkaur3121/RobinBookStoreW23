@@ -49,4 +49,5 @@ remove text-dark in line 23 and add additional properties in footer)
 1751- delete migration folder 
 1756- install package in appicationDbContext.cs and delete class1.css from 3 class library
 1807-make some changes in ErrorViewModels.cs,startup.cs,Error.cshtml,HomeController.cs
+1812- c
 
