@@ -60,10 +60,10 @@ namespace RobinBookStore
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapControllerRoute(
-                    name: "default",
-                    // here is the default welcome message
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                endpoints.MapAreaControllerRoute(
+         name: "defaultArea",
+         areaName: "Customer",
+         pattern: "{controller=Home}/{action=Index}/{id?}");
                 endpoints.MapRazorPages();
             });
         }
