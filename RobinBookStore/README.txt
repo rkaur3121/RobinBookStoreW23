@@ -54,4 +54,8 @@ remove text-dark in line 23 and add additional properties in footer)
 1831- change namespace in HomeController.cs
 1832- move ViewImports.cshtml and viewstart.cshtml to customer
 1835-changes in customer/_viewStart.cshtml
+1839- add admin into area folder
+1840- again move ViewImports.cshtml and viewstart.cshtml to admin
+1841- copy Home folder from customer to admin folder
+1842- Delete main controller folder
 
