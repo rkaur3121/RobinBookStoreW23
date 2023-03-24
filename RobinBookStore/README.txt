@@ -44,7 +44,7 @@ remove text-dark in line 23 and add additional properties in footer)
 1509- edit_layout.cshtml file
 1524- add 3 new projects
 
-******start again***
+******start again(2023-03-23)********
 1747- move data folder to  Robinbooks.DataAccess
 1751- delete migration folder 
 1756- install package in appicationDbContext.cs and delete class1.css from 3 class library
@@ -58,4 +58,7 @@ remove text-dark in line 23 and add additional properties in footer)
 1840- again move ViewImports.cshtml and viewstart.cshtml to admin
 1841- copy Home folder from customer to admin folder
 1842- Delete main controller folder
+
+**********2023-03-24*********
+1525- changes in appsettings.json file and run nuget package manager
 
