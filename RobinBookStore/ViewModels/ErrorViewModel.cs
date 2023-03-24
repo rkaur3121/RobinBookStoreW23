@@ -1,6 +1,6 @@
 using System;
 
-namespace RobinBookStore.Models
+namespace RobinBookStore.Models.ViewModels
 {
     public class ErrorViewModel
     {
