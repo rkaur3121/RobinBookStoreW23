@@ -60,5 +60,5 @@ remove text-dark in line 23 and add additional properties in footer)
 1842- Delete main controller folder
 
 **********2023-03-24*********
-1525- changes in appsettings.json file and run nuget package manager
+1525- changes in appsettings.json file and run nuget package manager(add-migration AddDefaultIdentityMigration)
 
