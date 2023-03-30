@@ -62,3 +62,22 @@ remove text-dark in line 23 and add additional properties in footer)
 **********2023-03-24*********
 1525- changes in appsettings.json file and run nuget package manager(add-migration AddDefaultIdentityMigration)
 
+*********start again 2023-03-30*******
+Update database
+but i got error
+Severity	Code	Description	Project	File	Line	Suppression State
+Error	CS0103	The name 'SqlServerValueGenerationStrategy' does not exist in the current context	Robinbooks.DataAccess	C:\Users\W0802989\source\repos\RobinBookStoreW23\Robinbooks.DataAccess\Migrations\20230324192520_AddDefaultIdentityMigration.Designer.cs	22	Active
+Error	CS0006	Metadata file 'C:\Users\W0802989\source\repos\RobinBookStoreW23\Robinbooks.DataAccess\bin\Debug\netcoreapp3.1\Robinbooks.DataAccess.dll' could not be found	RobinBookStore	C:\Users\W0802989\source\repos\RobinBookStoreW23\RobinBookStore\CSC	1	Active
+Error	CS0103	The name 'SqlServerValueGenerationStrategy' does not exist in the current context	Robinbooks.DataAccess	C:\Users\W0802989\source\repos\RobinBookStoreW23\Robinbooks.DataAccess\Migrations\20230324192520_AddDefaultIdentityMigration.Designer.cs	56	Active
+Error	CS0103	The name 'SqlServerValueGenerationStrategy' does not exist in the current context	Robinbooks.DataAccess	C:\Users\W0802989\source\repos\RobinBookStoreW23\Robinbooks.DataAccess\Migrations\20230324192520_AddDefaultIdentityMigration.Designer.cs	145	Active
+Error	CS0103	The name 'SqlServerValueGenerationStrategy' does not exist in the current context	Robinbooks.DataAccess	C:\Users\W0802989\source\repos\RobinBookStoreW23\Robinbooks.DataAccess\Migrations\ApplicationDbContextModelSnapshot.cs	20	Active
+Error	CS0103	The name 'SqlServerValueGenerationStrategy' does not exist in the current context	Robinbooks.DataAccess	C:\Users\W0802989\source\repos\RobinBookStoreW23\Robinbooks.DataAccess\Migrations\ApplicationDbContextModelSnapshot.cs	54	Active
+Error	CS0103	The name 'SqlServerValueGenerationStrategy' does not exist in the current context	Robinbooks.DataAccess	C:\Users\W0802989\source\repos\RobinBookStoreW23\Robinbooks.DataAccess\Migrations\ApplicationDbContextModelSnapshot.cs	143	Active
+Message	IDE0052	Private member 'HomeController._logger' can be removed as the value assigned to it is never read	RobinBookStore	C:\Users\W0802989\source\repos\RobinBookStoreW23\RobinBookStore\Areas\Customer\Controllers\HomeController.cs	16	Active
+ 
+ resolve the error in ApplicationDbContextModelSnapshot.cs and AddDefaultIdentityMigration.Designer.cs
+ after do update-database
+ this eoor happened
+ Value cannot be null. (Parameter 'value')
+
+
