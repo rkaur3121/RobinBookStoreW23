@@ -92,5 +92,8 @@ Message	IDE0052	Private member 'HomeController._logger' can be removed as the va
  1713 - Modify 20230331220604_AddCategoryToDb 
  1715- ADDED TWO FOLDER (Repository>IRepository)in the .DataAccess project
  1717- added IRepository.cs interface in IRepository folder and also modify it
+ 1723- added Repository.cs class in Repository folder 
+ then....
+ modify it
 
 
