@@ -100,4 +100,9 @@ Message	IDE0052	Private member 'HomeController._logger' can be removed as the va
  1731- added ICategoryRepository.cs Interface in IRepository folder
  1733- modify ICategoryRepository.cs Interface
 
+ 1735- added ISP_Call interface in IRepository folder
+ 1735- created SP_call Class in Repository folder
+ 1739- Modify both files(ISP_Call interface,SP_Call class)
+
+
 
