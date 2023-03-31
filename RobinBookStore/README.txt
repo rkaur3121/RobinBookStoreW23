@@ -82,6 +82,12 @@ Message	IDE0052	Private member 'HomeController._logger' can be removed as the va
  Value cannot be null. (Parameter 'value')
  ****1752***
  final solve the error and update database
- 1755 - added new class (Category.cs) in RobinsBooks.Models
+ 1755 - added new class (Category.cs) in RobinBooks.Models
  1759- modify category.cs class
+ add migration AddCategoryToDb in PM console
+ 1806- ApplicationDbContext.cs
+ delete 20230331220604_AdddCategoryToDb.cs
+ re-run the add migration AddCategoryToDb in PM console
+ update-database
+
 
