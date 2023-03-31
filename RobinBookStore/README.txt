@@ -1,7 +1,8 @@
-﻿****2023-03-02****
+﻿
+****2023-03-02****
 1505
 Started assignment 2 in-class in the lab computer
-set up the ASP.NET MVC w/ core 1.3 (out of support)
+set up the ASP.NET MVC w/ core 3.1 (out of support)
 HTTPS enabled,individual account authencation...no Razor...booo!
 Reviewed the areas folder, controller,model,view...
 AND....
@@ -79,5 +80,7 @@ Message	IDE0052	Private member 'HomeController._logger' can be removed as the va
  after do update-database
  this eoor happened
  Value cannot be null. (Parameter 'value')
+ ****1752***
+ final solve the error and update database
 
 
