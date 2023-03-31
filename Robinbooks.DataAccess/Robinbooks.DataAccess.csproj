@@ -14,4 +14,8 @@
     <ProjectReference Include="..\Robinbooks.Utility\Robinbooks.Utility.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Repository\IRepository\" />
+  </ItemGroup>
+
 </Project>

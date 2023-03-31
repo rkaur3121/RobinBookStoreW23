@@ -89,5 +89,7 @@ Message	IDE0052	Private member 'HomeController._logger' can be removed as the va
  delete 20230331220604_AdddCategoryToDb.cs
  re-run the add migration AddCategoryToDb in PM console
  update-database
+ 1713 - Modify 20230331220604_AddCategoryToDb 
+ 1715- ADDED TWO FOLDER (Repository>IRepository)in the .DataAccess project
 
 
