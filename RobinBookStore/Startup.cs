@@ -7,6 +7,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using RobinBooks.DataAccess.Repository;
+using RobinBooks.DataAccess.Repository.IRepository;
 using RobinBookStore.DataAccess.Data;
 using System;
 using System.Collections.Generic;
@@ -32,6 +34,7 @@ namespace RobinBookStore
                     Configuration.GetConnectionString("DefaultConnection")));
             services.AddDefaultIdentity<IdentityUser>()//remove(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddControllersWithViews();
             services.AddRazorPages();
         }

@@ -89,20 +89,25 @@ Message	IDE0052	Private member 'HomeController._logger' can be removed as the va
  delete 20230331220604_AdddCategoryToDb.cs
  re-run the add migration AddCategoryToDb in PM console
  update-database
- 1713 - Modify 20230331220604_AddCategoryToDb 
- 1715- ADDED TWO FOLDER (Repository>IRepository)in the .DataAccess project
- 1717- added IRepository.cs interface in IRepository folder and also modify it
- 1723- added Repository.cs class in Repository folder 
+ 1813 - Modify 20230331220604_AddCategoryToDb 
+ 1815- ADDED TWO FOLDER (Repository>IRepository)in the .DataAccess project
+ 1817- added IRepository.cs interface in IRepository folder and also modify it
+ 1823- added Repository.cs class in Repository folder 
  then....
  modify it
- 1727- added CategoryRepository.cs class in Repository folder
- 1728- modify the CategoryRepository.cs class
- 1731- added ICategoryRepository.cs Interface in IRepository folder
- 1733- modify ICategoryRepository.cs Interface
+ 1827- added CategoryRepository.cs class in Repository folder
+ 1828- modify the CategoryRepository.cs class
+ 1831- added ICategoryRepository.cs Interface in IRepository folder
+ 1833- modify ICategoryRepository.cs Interface
 
- 1735- added ISP_Call interface in IRepository folder
- 1735- created SP_call Class in Repository folder
- 1739- Modify both files(ISP_Call interface,SP_Call class)
+ 1835- added ISP_Call interface in IRepository folder
+ 1835- created SP_call Class in Repository folder
+ 1839- Modify both files(ISP_Call interface,SP_Call class)
 
+
+ 1843- created UnitOfWork.cs class in Repository folder
+ 1843- created IUnitOfWork.cs interface in IRepository folder
+ 1845- modify UnitOfWork.cs class in Repository folder and IUnitOfWork.cs interface in IRepository folder
+ edit startup.cs file
 
 
