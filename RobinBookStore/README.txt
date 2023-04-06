@@ -110,4 +110,8 @@ Message	IDE0052	Private member 'HomeController._logger' can be removed as the va
  1845- modify UnitOfWork.cs class in Repository folder and IUnitOfWork.cs interface in IRepository folder
  edit startup.cs file
 
+ *****start again(2023-04-06)******
+ 1414- Add CategoryController.cs inside Area/Admin/Controller
+ 1422- modify CategoryController.cs
+
 
