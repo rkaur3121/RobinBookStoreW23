@@ -121,6 +121,9 @@ Message	IDE0052	Private member 'HomeController._logger' can be removed as the va
 1430 - edit startup.cs
 1430 - added code in category/index.cshtml
 1431- added category.js file in wwwroot
+****got error when i ruc the project***
+http://datatables.net/tn/7 
+
 
 
 
