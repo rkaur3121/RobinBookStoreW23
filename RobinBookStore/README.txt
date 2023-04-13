@@ -131,7 +131,11 @@ edit Category.js and Upsert.cshtml
 
 created function Delete(url) code in Category.js 
 added HttpDelete in CategoryController.cs 
-
+***1850****
 created CoverType.cs in Robinbooks.Models
+
+--- work in Robinbooks.DataAccess---
+created CoverTypeRepository.cs class in Repository folder and also modify it
+cretaed ICoverTypeRepository.cs Interface in IRepository folder and also  modify it
 
 
