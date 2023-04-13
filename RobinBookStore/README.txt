@@ -123,8 +123,13 @@ Message	IDE0052	Private member 'HomeController._logger' can be removed as the va
 1431- added category.js file in wwwroot
 ****got error when i ruc the project***
 http://datatables.net/tn/7 
+
+
 modify CategoryRepository.cs and Repository.cs in Robinbooks.DataAccess\Repository
 modify CategoryController.cs in Contoller folder
 edit Category.js and Upsert.cshtml
+
+created function Delete(url) code in Category.js 
+added HttpDelete in CategoryController.cs 
 
 
