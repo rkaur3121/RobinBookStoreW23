@@ -68,7 +68,14 @@ namespace RobinBookStore
          areaName: "Customer",
          pattern: "{controller=Home}/{action=Index}/{id?}");
                 endpoints.MapRazorPages();
+
+                endpoints.MapAreaControllerRoute(
+         name: "defaultArea",
+         areaName: "Admin",
+         pattern: "{controller=Home}/{action=Index}/{id?}");
+                endpoints.MapRazorPages();
             });
+
         }
     }
 }

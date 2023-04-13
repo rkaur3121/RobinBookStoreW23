@@ -117,5 +117,10 @@ Message	IDE0052	Private member 'HomeController._logger' can be removed as the va
  1428- add Category folder in Areas/Views
  1428- added and modify index.cshtml in Areas/Views/Category folder
 
+*****start again(2023-04-13)******
+1430 - edit startup.cs
+1430 - added code in category/index.cshtml
+1431- added category.js file in wwwroot
+
 
 
