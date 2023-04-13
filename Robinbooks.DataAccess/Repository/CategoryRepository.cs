@@ -25,7 +25,7 @@ namespace RobinBooks.DataAccess.Repository
             if (objFromDb != null)//Save changes if not null
             {
                 objFromDb.Name = category.Name;
-                _db.SaveChanges();
+                
             }
 
         }

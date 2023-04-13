@@ -4,7 +4,7 @@ $(document).ready(function () {
     loadDataTable();
 });
 
-
+$.fn.dataTable.ext.errMode = 'throw';
 function loadDataTable() {
     dataTable = $('#tblData').DataTable({
         "ajax": {
