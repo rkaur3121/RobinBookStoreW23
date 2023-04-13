@@ -134,8 +134,13 @@ added HttpDelete in CategoryController.cs
 ***1850****
 created CoverType.cs in Robinbooks.Models
 
+
 --- work in Robinbooks.DataAccess---
 created CoverTypeRepository.cs class in Repository folder and also modify it
 cretaed ICoverTypeRepository.cs Interface in IRepository folder and also  modify it
 
+****got error***
+so delete again these class and interface(CoverTypeRepository.cs class in Repository folder, ICoverTypeRepository.cs Interface in IRepository folder)
+regenerate again
+added CoverType.cs in UnitOfWork folder and IUnitOfWork folder
 
