@@ -162,3 +162,4 @@ created and modify the cover.js inside js folder in wwwroot
 *************2023-04-14**************
 edit ApplicationDbContext.cs
 0954- added Product.cs class in Robinbooks.Models
+1005-write code in Product.cs class 
