@@ -190,3 +190,10 @@ edit _Layout.cshtml
 missing one step so delete 20230414143243_AddValidationToProduct  and created again
 by doing same step
  modify ProductRepository.cs class in Repository folder and IProductRepository.cs Interface in IRepository folder
+
+ **********1230*************
+
+ Added ProductVM.cs class in ViewModels folder
+ added ProductController.cs in Areas\Admin\Controller folder
+ Added Index.cshtml in Views/Product folder
+ 

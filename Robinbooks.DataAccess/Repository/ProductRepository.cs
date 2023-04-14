@@ -14,6 +14,11 @@ namespace RobinBooks.DataAccess.Repository
             _db = db;
         }
 
+        public object GetAll(string includeProperties)
+        {
+            throw new System.NotImplementedException();
+        }
+
         public void Update(Product product)
         {
             var objFromDb = _db.Products.FirstOrDefault(s => s.Id == product.Id);
