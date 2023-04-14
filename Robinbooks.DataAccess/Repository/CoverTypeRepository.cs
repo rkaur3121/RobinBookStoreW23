@@ -1,14 +1,14 @@
-﻿using RobinBooks.DataAccess.Repository.IRepository;
-using RobinBooks.Models;
+﻿using System.Linq;
 using RobinBookStore.DataAccess.Data;
-using System.Linq;
+using RobinBooks.DataAccess.Repository;
+using RobinBooks.DataAccess.Repository.IRepository;
+using RobinBooks.Models;
 
-namespace RobinBooks.DataAccess.Repository
+namespace RobinBookStore.DataAccess.Repository
 {
     public class CoverTypeRepository : Repository<CoverType>, ICoverTypeRepository
     {
         private readonly ApplicationDbContext _db;
-
         public CoverTypeRepository(ApplicationDbContext db) : base(db)
         {
             _db = db;
@@ -16,14 +16,11 @@ namespace RobinBooks.DataAccess.Repository
 
         public void Update(CoverType coverType)
         {
-            //throw new NotImplementedException();
-            //use .NET LINQ to retrieve the first or default category object
-            // then pass the id as a generic entity which matters the category ID
-            var objFromDb = _db.Covers.FirstOrDefault(s => s.Id == coverType.Id);
-            if (objFromDb != null)//Save changes if not null
+            var objFromDb = _db.Categories.FirstOrDefault(s => s.Id == coverType.Id);
+            if (objFromDb != null)
             {
                 objFromDb.Name = coverType.Name;
-                // _db.SaveChanges();
+                _db.SaveChanges();
             }
         }
     }

@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Robinbooks.Models;
 using RobinBooks.DataAccess.Repository.IRepository;
+using RobinBooks.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,11 +8,12 @@ using System.Threading.Tasks;
 
 namespace RobinBookStore.Areas.Admin.Controllers
 {
+
     [Area("Admin")]
-    public class CategoryController : Controller
+    public class CoverTypeController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
-        public CategoryController(IUnitOfWork unitOfWork)
+        public CoverTypeController(IUnitOfWork unitOfWork)
         {
             _unitOfWork = unitOfWork;
         }
@@ -20,63 +21,60 @@ namespace RobinBookStore.Areas.Admin.Controllers
         {
             return View();
         }
-
         public IActionResult Upsert(int? id)
         {
-            Category category = new Category();
+            CoverType coverType = new CoverType();
             if (id == null)
             {
-                // this is for create
-                return View(category);
+                return View(coverType);
             }
-            // this is for edit
-            category = _unitOfWork.Category.Get(id.GetValueOrDefault());
-            if (category == null)
+            coverType = _unitOfWork.Cover.Get(id.GetValueOrDefault());
+            if (coverType == null)
             {
                 return NotFound();
             }
-            return View(category);
+            return View(coverType);
         }
+
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Upsert(Category category)
+        public IActionResult Upsert(CoverType coverType)
         {
             if (ModelState.IsValid)
             {
-                if (category.Id == 0)
+                if (coverType.Id == 0)
                 {
-                    _unitOfWork.Category.Add(category);
+                    _unitOfWork.Cover.Add(coverType);
+
                 }
                 else
                 {
-                    _unitOfWork.Category.Update(category);
+                    _unitOfWork.Cover.Update(coverType);
                 }
                 _unitOfWork.Save();
                 return RedirectToAction(nameof(Index));
             }
-            return View(category);
+            return View(coverType);
         }
-
+        //API Calls Here
         #region
-        [HttpGet]
         public IActionResult GetAll()
         {
-            var allObj = _unitOfWork.Category.GetAll();
+            var allObj = _unitOfWork.Cover.GetAll();
             return Json(new { data = allObj });
         }
-
         [HttpDelete]
         public IActionResult Delete(int id)
         {
-            var objFromDb = _unitOfWork.Category.Get(id);
+            var objFromDb = _unitOfWork.Cover.Get(id);
             if (objFromDb == null)
             {
                 return Json(new { success = false, message = "Error while Deleting" });
             }
-            _unitOfWork.Category.Remove(objFromDb);
+            _unitOfWork.Cover.Remove(objFromDb);
             _unitOfWork.Save();
-            return Json(new { success = true, message = "Delete Successful" });
+            return Json(new { success = true, message = "Delete Successfull" });
         }
         #endregion
     }

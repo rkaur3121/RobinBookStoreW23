@@ -144,3 +144,10 @@ so delete again these class and interface(CoverTypeRepository.cs class in Reposi
 regenerate again
 added CoverType.cs in UnitOfWork folder and IUnitOfWork folder
 
+added add-migration AddCoverTypeToDb in package manager console 
+then****
+updat-database
+20230414001635_AddCoverTypeToDb.cs in migration file
+add one line in _layout.cshtml
+added CoverTypeController.cs in Areas/Admin/Controller folder and modify it
+Edit Category.js
