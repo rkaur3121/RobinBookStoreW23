@@ -151,3 +151,9 @@ updat-database
 add one line in _layout.cshtml
 added CoverTypeController.cs in Areas/Admin/Controller folder and modify it
 Edit Category.js
+
+***2040***
+added new CoverType folder in Areas/Admin/Views
+added Index.cshtml and Upsert.cshtml in CoverType folder and modify it
+
+created and modify the cover.js inside js folder in wwwroot 
