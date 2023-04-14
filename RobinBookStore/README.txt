@@ -80,6 +80,7 @@ Message	IDE0052	Private member 'HomeController._logger' can be removed as the va
  after do update-database
  this eoor happened
  Value cannot be null. (Parameter 'value')
+
  ****1752***
  final solve the error and update database
  1755 - added new class (Category.cs) in RobinBooks.Models
@@ -110,14 +111,18 @@ Message	IDE0052	Private member 'HomeController._logger' can be removed as the va
  1845- modify UnitOfWork.cs class in Repository folder and IUnitOfWork.cs interface in IRepository folder
  edit startup.cs file
 
+
  *****start again(2023-04-06)******
+
  1414- Add CategoryController.cs inside Area/Admin/Controller
  1422- modify CategoryController.cs
 
  1428- add Category folder in Areas/Views
  1428- added and modify index.cshtml in Areas/Views/Category folder
 
+
 *****start again(2023-04-13)******
+
 1430 - edit startup.cs
 1430 - added code in category/index.cshtml
 1431- added category.js file in wwwroot
@@ -135,11 +140,13 @@ added HttpDelete in CategoryController.cs
 created CoverType.cs in Robinbooks.Models
 
 
---- work in Robinbooks.DataAccess---
+******** work in Robinbooks.DataAccess*******
+
 created CoverTypeRepository.cs class in Repository folder and also modify it
 cretaed ICoverTypeRepository.cs Interface in IRepository folder and also  modify it
 
 ****got error***
+
 so delete again these class and interface(CoverTypeRepository.cs class in Repository folder, ICoverTypeRepository.cs Interface in IRepository folder)
 regenerate again
 added CoverType.cs in UnitOfWork folder and IUnitOfWork folder
@@ -153,6 +160,7 @@ added CoverTypeController.cs in Areas/Admin/Controller folder and modify it
 Edit Category.js
 
 ***2040***
+
 added new CoverType folder in Areas/Admin/Views
 added Index.cshtml and Upsert.cshtml in CoverType folder and modify it
 
@@ -160,7 +168,14 @@ added Index.cshtml and Upsert.cshtml in CoverType folder and modify it
 created and modify the cover.js inside js folder in wwwroot 
 
 *************2023-04-14**************
+
+
 edit ApplicationDbContext.cs
 0954- added Product.cs class in Robinbooks.Models
 1005-write code in Product.cs class 
 1007- add  public DbSet<Product> Products { get; internal set; } in ApplicationDbContext.cs(line 20 )
+1011- add(add-migration AddProductToDb) command in Package Manager Console and then using update-database command for updating all data
+
+added two timestamp of migration 
+CoverType -   20230414001635_AddCoverTypeToDb.cs
+Product-    20230414141109_AddProductToDb.cs
