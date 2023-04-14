@@ -186,3 +186,7 @@ edit _Layout.cshtml
 
 1038- added ProductRepository.cs class in Repository folder
 1038- created IProductRepository.cs Interface in IRepository folder
+
+missing one step so delete 20230414143243_AddValidationToProduct  and created again
+by doing same step
+ modify ProductRepository.cs class in Repository folder and IProductRepository.cs Interface in IRepository folder

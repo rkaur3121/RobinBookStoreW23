@@ -8,6 +8,7 @@ namespace RobinBooks.DataAccess.Repository.IRepository
     {
         ICategoryRepository Category { get; }
         ICoverTypeRepository Cover { get; }
+        IProductRepository Product { get; }
 
 
         ISP_Call SP_Call { get; }
