@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using RobinBooks.Models;
 
 namespace RobinBookStore.DataAccess.Data
 {
@@ -15,6 +16,6 @@ namespace RobinBookStore.DataAccess.Data
         }
 
         public DbSet<Category> Categories { get; set; }
-        public object Covers { get; internal set; }
+        public DbSet<CoverType> CoverTypes { get; internal set; }
     }
 }
