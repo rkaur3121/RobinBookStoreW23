@@ -183,3 +183,6 @@ Product-    20230414141109_AddProductToDb.cs
 1034- created 20230414143243_AddValidationToProduct in migration folder
 then... update the database
 edit _Layout.cshtml
+
+1038- added ProductRepository.cs class in Repository folder
+1038- created IProductRepository.cs Interface in IRepository folder
