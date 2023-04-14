@@ -17,5 +17,6 @@ namespace RobinBookStore.DataAccess.Data
 
         public DbSet<Category> Categories { get; set; }
         public DbSet<CoverType> CoverTypes { get; internal set; }
+        public DbSet<Product> Products { get; internal set; }
     }
 }

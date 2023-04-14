@@ -163,3 +163,4 @@ created and modify the cover.js inside js folder in wwwroot
 edit ApplicationDbContext.cs
 0954- added Product.cs class in Robinbooks.Models
 1005-write code in Product.cs class 
+1007- add  public DbSet<Product> Products { get; internal set; } in ApplicationDbContext.cs(line 20 )
