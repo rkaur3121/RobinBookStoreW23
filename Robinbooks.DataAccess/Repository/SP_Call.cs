@@ -8,6 +8,7 @@ using Dapper;
 using Microsoft.Data.SqlClient;
 using System.Linq;
 using System.Data;
+using System.Threading.Tasks;
 
 namespace RobinBooks.DataAccess.Repository
 {

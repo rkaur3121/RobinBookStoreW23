@@ -196,4 +196,7 @@ by doing same step
  Added ProductVM.cs class in ViewModels folder
  added ProductController.cs in Areas\Admin\Controller folder
  Added Index.cshtml in Views/Product folder
+
+ ********2023-04-09*****
+  do changes in all Repository folder and IRepository folder
  

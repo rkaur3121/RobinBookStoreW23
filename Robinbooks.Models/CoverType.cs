@@ -12,9 +12,9 @@ namespace RobinBooks.Models
     {
         [Key]
         public int Id { get; set; }
-
-        [Display(Name = "CoverType name")]
         [Required]
+        [Display(Name = "Cover Type")]
+       
         [MaxLength(50)]
         public string Name { get; set; }
     }
