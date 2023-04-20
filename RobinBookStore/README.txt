@@ -81,8 +81,8 @@ Message	IDE0052	Private member 'HomeController._logger' can be removed as the va
  this eoor happened
  Value cannot be null. (Parameter 'value')
 
- ****1752***
- final solve the error and update database
+ 
+ 1752-final solve the error and update database
  1755 - added new class (Category.cs) in RobinBooks.Models
  1759- modify category.cs class
  add migration AddCategoryToDb in PM console
@@ -159,9 +159,8 @@ add one line in _layout.cshtml
 added CoverTypeController.cs in Areas/Admin/Controller folder and modify it
 Edit Category.js
 
-***2040***
 
-added new CoverType folder in Areas/Admin/Views
+2040-added new CoverType folder in Areas/Admin/Views
 added Index.cshtml and Upsert.cshtml in CoverType folder and modify it
 
 
@@ -191,7 +190,7 @@ missing one step so delete 20230414143243_AddValidationToProduct  and created ag
 by doing same step
  modify ProductRepository.cs class in Repository folder and IProductRepository.cs Interface in IRepository folder
 
- **********1230*************
+
 
  Added ProductVM.cs class in ViewModels folder
  added ProductController.cs in Areas\Admin\Controller folder
